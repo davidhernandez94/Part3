@@ -26,11 +26,10 @@ public class CompactDisc
             cd[i] = new Song(title, artist);
         }
         System.out.println("Contents of Classics:");
-        for (int i = 0; i < cd.length; i++)
-        {
+        for (Song song : cd) {
 // ADD LINES FOR TASK #3 HERE
 // Print the contents of the array to the console
-            System.out.print(cd[i].toString());
+            System.out.print(song.toString());
         }
     }
 }
